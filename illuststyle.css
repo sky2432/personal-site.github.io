@@ -1,0 +1,203 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+header{
+  height: 65px;
+  background-color: rgba(30, 144, 255, 0.6);
+  position: fixed;
+  top: 0;
+  right: 0 ;
+  left: 0;
+  z-index: 10;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-left h2 {
+  line-height: 65px;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  float: left;
+}
+
+.header-left p {
+  float: left;
+  color: white;
+  line-height: 65px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-right a {
+  float: left;
+  line-height: 65px;
+  color: white;
+  display: block;
+  padding: 0 20px;
+  transition: all 1s;
+  border-right: solid 1px black;
+}
+
+.line{
+  border-left: solid 1px black;
+  background-color: rgba(0,204,51, 0.3);
+}
+
+.line:hover{
+  background-color: rgba(0,204,51, 1);
+}
+
+.twitter{
+  background-color: rgba(51,204,255, 0.3);
+}
+
+.twitter:hover{
+  background-color: rgba(51,204,255, 1);
+}
+
+.facebook{
+  background-color: rgba(51,0,255, 0.3);
+}
+
+.facebook:hover{
+  background-color: rgba(51,0,255, 1);
+}
+
+.fab{
+  margin-right: 5px;
+}
+
+.fas{
+  margin-right: 5px;
+}
+
+.fa-line{
+  color: #00ff33;
+}
+
+.fa-twitter{
+  color: #00ffff;
+}
+
+.fa-facebook{
+  color: #0066ff;
+}
+
+.navigation{
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 50px;
+  color: white;
+  position: fixed;
+  top: 65px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navigation li {
+  float: left;
+  line-height: 50px;
+  padding-right: 50px;
+}
+
+.navigation a {
+  color: white;
+  display: block;
+  transition: all 0.3s;
+}
+
+.navigation a:hover{
+  color: #ff0033;
+}
+
+.top{
+  border-right: 2px solid white;
+  margin-right: 50px;
+}
+
+.main{
+  padding: 150px;
+  text-align: center; 
+}
+
+.main h1 {
+  font-weight: normal;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+
+.main h2 {
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.mosha {
+  border: 3px solid black;
+  padding: 10px 20px;
+}
+
+.illust-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.illust-wrapper li {
+  flex: auto;
+  width: 50%;
+}
+
+.illust-wrapper img {
+  width: auto;
+  height: 350px;
+}
+
+.original-wrapper{
+  margin-top: 50px;
+}
+
+footer{
+  height: 80px;
+  background-color: black;
+  border-top: 2px solid white;
+}
+
+footer h2 {
+  float: right;
+  color: white;
+  font-weight: normal;
+  line-height: 80px;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
